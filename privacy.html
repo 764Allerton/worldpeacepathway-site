@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy — World Peace Pathway</title>
+    <meta
+      name="description"
+      content="Privacy policy for the World Peace Pathway app. What we collect, what stays on your phone, and how to reach us."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Playfair+Display:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="index.html">World Peace Pathway</a>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="privacy.html" aria-current="page">Privacy</a>
+          <a href="support.html">Support</a>
+        </div>
+      </nav>
+
+      <header class="hero">
+        <p class="kicker">Privacy policy</p>
+        <h1>Your practice stays with you</h1>
+        <p class="meta">Effective October 2026 · Operator: Zachary Berk, New Haven, CT</p>
+      </header>
+
+      <section>
+        <p>
+          This policy describes the World Peace Pathway iPhone and Android app and this website.
+          It matches what the current app actually does. We do not run ads. We do not use
+          analytics or advertising SDKs.
+        </p>
+
+        <h2>What stays on your device</h2>
+        <p>
+          Practice data is stored on the phone by default: meditation completions, favorites,
+          notes, reminder choices, journal and peace-deed entries, sit-circle drafts, Grow ladder
+          progress, the next-10 offline download list, Ask Coach history, and the daily question
+          cap. Your account for this build — name, email, and a hashed password — also lives on
+          the device. The signed-in session uses the phone’s secure store when available.
+        </p>
+        <p>
+          Cloud sign-in (AWS Cognito) is planned and is not on in this version. Until it is,
+          creating an account on one phone does not copy that account to another phone.
+        </p>
+
+        <h2>Name and email at sign-up</h2>
+        <p>
+          When you create an account you enter a name (optional to keep using the app) and an
+          email and password. Those values are saved on the device so you can sign in again. We
+          do not sell them.
+        </p>
+
+        <h2>Ask Coach questions</h2>
+        <p>
+          Clear how-to questions about the app (“where is Coach?”, “how do I start a circle?”)
+          are answered on the device from the bundled app guide. Practice questions — meaning,
+          feelings, breath, Higher Self, peace — are sent to our Ask Coach backend on Amazon Web
+          Services (a Lambda function in us-east-1 that uses Amazon Bedrock). The request
+          contains the text of your question and an app token. Saved questions and answers in
+          My questions stay on the device and are not uploaded.
+        </p>
+
+        <h2>Microphone and speech</h2>
+        <p>
+          If you tap the microphone in Ask Coach, the app uses the microphone so you can speak a
+          question. On iPhone, Apple’s on-device speech recognition turns that speech into text.
+          You can stop, edit the words, and then Ask. We do not send the recording to a paid
+          speech service.
+        </p>
+
+        <h2>Face ID or Touch ID</h2>
+        <p>
+          If you turn it on, Face ID or Touch ID unlocks the app on that device. The biometric
+          pattern never leaves the phone. The app only stores a yes/no preference.
+        </p>
+
+        <h2>Offline meditations</h2>
+        <p>
+          The next 10 path meditations can download to the app’s files on this phone, usually
+          over Wi-Fi, so you can sit without a connection. Those files are the same public
+          meditation audio the player already streams. Download on cellular is off unless you
+          turn it on. You can remove the files from Profile.
+        </p>
+
+        <h2>Share my practice with my coach</h2>
+        <p>
+          This toggle is off unless you turn it on. When it is on, the app stores a short
+          practice summary on the device for a future account sync (today’s sit / deed / reflect,
+          days you showed up, Grow rung, and path completions). In this version that summary is
+          not posted to a server. Admins cannot look up a person who has not opted in.
+        </p>
+
+        <h2>Photos</h2>
+        <p>
+          The app may ask for photo-library permission later if you choose to add a picture, such
+          as a profile photo. This build’s Profile does not upload a portrait. Home does not
+          show a count of meditators.
+        </p>
+
+        <h2>This website</h2>
+        <p>
+          These static pages do not set advertising cookies and do not embed a tracker. Your
+          browser will request the pages and the fonts linked from Google Fonts.
+        </p>
+
+        <h2>What we do not do</h2>
+        <ul>
+          <li>No ads.</li>
+          <li>No analytics or crash-reporting SDKs in the app.</li>
+          <li>No public leaderboard and no meditator counts.</li>
+          <li>No sale of personal information.</li>
+        </ul>
+
+        <h2>Children</h2>
+        <p>
+          The app is not directed at children under 13. Do not create an account for a child
+          under 13.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          Privacy questions: <a href="mailto:privacy@worldpeacepathway.org">privacy@worldpeacepathway.org</a>.
+          Support: <a href="mailto:support@worldpeacepathway.org">support@worldpeacepathway.org</a>.
+        </p>
+        <p class="meta">Operator: Zachary Berk, New Haven, CT. Effective date: October 2026.</p>
+      </section>
+
+      <footer>
+        <p><a href="index.html">World Peace Pathway</a> · New Haven, CT</p>
+      </footer>
+    </div>
+  </body>
+</html>
