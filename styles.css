@@ -90,3 +90,22 @@ footer p { font-size: 14px; }
   .actions { flex-direction: row; max-width: 520px; }
   .actions .btn { flex: 1; }
 }
+
+.mission { font-family: "Playfair Display", Georgia, serif; font-size: 22px; line-height: 1.5; color: var(--brown-deep); }
+.parts { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+.part { background: rgba(255,255,255,.6); border: 1px solid var(--line); border-radius: 16px; padding: 4px 16px; }
+.part h3 { margin-top: 12px; }
+.part p { margin-top: 4px; }
+.shots { display: flex; gap: 18px; justify-content: center; flex-wrap: wrap; margin: 20px 0 8px; }
+.shots figure { margin: 0; text-align: center; }
+.shots img { width: min(220px, 40vw); border-radius: 26px; border: 3px solid #fff; box-shadow: 0 10px 30px rgba(120,90,30,.22); }
+.shots figcaption { font-size: 15px; color: var(--muted); margin-top: 6px; }
+.founder { display: flex; gap: 22px; align-items: center; flex-wrap: wrap; }
+.photo-placeholder { width: 160px; height: 200px; flex: none; border: 2px dashed var(--brown); border-radius: 18px;
+  display: flex; align-items: center; justify-content: center; text-align: center; font-weight: 700; font-size: 13px;
+  letter-spacing: .08em; color: var(--brown); background: rgba(255,255,255,.6); }
+.founder > div:last-child { flex: 1; min-width: 220px; }
+
+.video-wrap { margin: 16px 0 4px; border-radius: 18px; overflow: hidden; border: 3px solid #fff; box-shadow: 0 10px 30px rgba(120,90,30,.22); background: #000; }
+.video-wrap video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; }
+.founder-photo { width: 160px; height: auto; flex: none; border-radius: 20px; border: 3px solid var(--gold); box-shadow: 0 6px 18px rgba(150,115,40,0.18); object-fit: cover; }
